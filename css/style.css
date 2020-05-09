@@ -1,0 +1,133 @@
+html {
+	background: black;
+	font-family: "Inria Sans";
+	color: white;	
+}
+
+ul.menu{
+	padding-left: 2%;
+	padding-top:3%;
+	padding-bottom: 0%;
+	margin-bottom: 0%;
+
+}
+
+li {
+	display: inline;
+	margin-left: 5%;
+	padding-left: 2%;
+	padding-bottom: 0%;
+	font-size: 125%;
+}
+
+#particles-js{
+	margin-top:2%;
+}
+
+#subtitle{
+	font-family: "Inria Sans";
+	font-size: 130%;
+	color: white;
+	padding-left: 2%;
+	padding-bottom: 0%;
+	margin-bottom: 0%;
+	margin-top: 1%;
+}
+
+#title{
+	font-family: "Inria Sans";
+	font-size: 250%;
+	color: white;
+	padding-left: 2%;
+	padding-bottom: 0%;
+	margin-bottom: 0%;
+	margin-top: 2%;
+}
+
+header{
+	/*background:blue;*/
+	padding-bottom: 2%;
+	color: white;
+	font-family: "Inria Sans";
+}
+
+
+.grid-container{
+	display: grid;
+	grid-template-columns: auto auto; 
+	grid-row-gap: 2%;
+}
+
+.grid-menu{
+	display: grid;
+	grid-template-columns: 30% 30% 30%;
+	text-align: center;
+}
+
+@font-face {
+	font-family:'Inria Sans';
+	src:	url('Web/InriaSans-Light.eot');
+	src:	url('Web/InriaSans-Light.eot?#iefix') format('embedded-opentype'),
+			url('Web/InriaSans-Light.woff2') format('woff2'),
+			url('Web/InriaSans-Light.woff') format('woff'),
+			url('Web/InriaSans-Light.svg') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family:'Inria Sans';
+	src:	url('Web/InriaSans-LightItalic.eot');
+	src:	url('Web/InriaSans-LightItalic.eot?#iefix') format('embedded-opentype'),
+			url('Web/InriaSans-LightItalic.woff2') format('woff2'),
+			url('Web/InriaSans-LightItalic.woff') format('woff'),
+			url('Web/InriaSans-LightItalic.svg') format('svg');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family:'Inria Sans';
+	src:	url('Web/InriaSans-Italic.eot');
+	src:	url('Web/InriaSans-Italic.eot?#iefix') format('embedded-opentype'),
+			url('Web/InriaSans-Italic.woff2') format('woff2'),
+			url('Web/InriaSans-Italic.woff') format('woff'),
+			url('Web/InriaSans-Italic.svg') format('svg');
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family:'Inria Sans';
+	src:	url('Web/InriaSans-Regular.eot');
+	src:	url('Web/InriaSans-Regular.eot?#iefix') format('embedded-opentype'),
+			url('Web/InriaSans-Regular.woff2') format('woff2'),
+			url('Web/InriaSans-Regular.woff') format('woff'),
+			url('Web/InriaSans-Regular.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family:'Inria Sans';
+	src:	url('Web/InriaSans-Bold.eot');
+	src:	url('Web/InriaSans-Bold.eot?#iefix') format('embedded-opentype'),
+			url('Web/InriaSans-Bold.woff2') format('woff2'),
+			url('Web/InriaSans-Bold.woff') format('woff'),
+			url('Web/InriaSans-Bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family:'Inria Sans';
+	src:	url('Web/InriaSans-BoldItalic.eot');
+	src:	url('Web/InriaSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+			url('Web/InriaSans-BoldItalic.woff2') format('woff2'),
+			url('Web/InriaSans-BoldItalic.woff') format('woff'),
+			url('Web/InriaSans-BoldItalic.svg') format('svg');
+	font-weight: 700;
+	font-style: italic;
+}
+
+
